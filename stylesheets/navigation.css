@@ -1,0 +1,32 @@
+body {
+    font-size: 19px;
+    margin: auto;
+    
+
+}
+
+/* unbesuchte Links */
+a:link {
+    color: black;
+}
+
+/* besuchte Links */
+a:visited {
+    color: black;
+}
+
+/* Link unter dem Mauszeiger */
+a:hover {
+    color: grey;
+}
+
+/* ausgewählter Link */
+a:active {
+    color: blue;
+}
+
+/* Unterstriche entfernen*/
+a:link {
+    text-decoration: none;
+}
+
