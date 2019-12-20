@@ -7,15 +7,21 @@ h2 {
     font-size: 30px;
 }
 p {
-    border: 350px;
-    padding: 50px;
+    border: 1px solid;
+    padding: 10px;
     position: relative;
     right: 0px;
     left: 550px;
-    top: -395px;
+    top: -350px;
     width: 750px;
     text-align: start;
     color: black;
     font-size: 21px;
 }
 
+nav {
+    border: 1px solid black ;
+    position: relative;
+    width: 250px;
+    left: 15px;
+}
