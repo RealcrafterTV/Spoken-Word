@@ -3,6 +3,7 @@
 <head> 
     <link rel="stylesheet" href="/stylesheets/stylesheet.css">
     <link rel="stylesheet" href="/stylesheets/navigation.css">
+    <link rel="navigation.html" rel="import">
 </head>
 <body>
 <h1> Spoken Word</h1>
@@ -10,68 +11,10 @@
 </body>
 <!-- Bis hier hin, Kopf und Überschrift-->
 <body>
-<nav>
-    <ul>
-    <li>
-        <a href="index.html"> Allgemein</a>
-        </li>
-        <ul>
-            <li>
-                <a href="definition.html"> Definition</a>
-            </li>
-        </ul>
-    </ul>
-    <ul> 
-        <li> 
-            <a href="">Arten</a>
-        </li>
-        <ul> 
-            <li> 
-                <a href="poetry_slam.html">Poetry Slam</a>
-            </li>
-        </ul>
-        <ul> 
-            <li> 
-                <a href="index.html">Kein Plan was noch</a>
-            </li>
-        </ul>
-    </ul>
-    <ul> 
-        <li> 
-            <a href="artist.html">Künstler</a>
-        </li>
-        <ul> 
-            <li> 
-                <a href="marco_michalzik.html">Marco Michalzik</a>
-            </li>
-        </ul>
-        <ul> 
-            <li> 
-                <a href="micha_kunze.html">Micha Kunze</a>
-            </li>
-        </ul>
-        <ul> 
-            <li> 
-                <a href="dominik_auch.html">Dominik Auch</a>
-            </li>
-        </ul>
-        <ul> 
-            <li> 
-                <a href="sarah_marie.html">Sarah Marie</a>
-            </li>
-        </ul>
-        <ul> 
-            <li> 
-                <a href="redeemed.html">Redeemed</a>
-            </li>
-        </ul> 
-    </ul>
-    <ul> 
-        <li> 
-            <a href="index.html">Nachweise</a>
-        </li>
-    </ul> 
-    </nav>
+<iframe name="index" height="400" width="280" src="navigation.html">
+   <a href="navigation.html" target="_parent">Navigationsleiste </a>
+
+</iframe>
     
 <!-- Bis hier hin, die seitliche Linkliste.-->
     
@@ -86,6 +29,25 @@
     Poetry Slams entsanden 1986 in Chicago, die Deutsche Poetry Slam Szene zählt zu den größten Weltweit. 2016 wurden die deutschsprachigen Poetry-Slams in das Bundesweite Verzeichnis des immateriellen Kulturerbes der UNESCO aufgenommen
 </p>
 
+<div align="right"> 
+<script language="JavaScript" type="text/javascript"> 
+<!-- 
+var image = new Array(); 
+
+/** Hier die (Zufalls)-Bilder eintragen. **/ 
+
+image[1] = '/images/buch_mit_feder.jpg'; 
+image[2] = '/images/dominik_auch.fpg'; 
+image[3] = '/images/marco_michalzik.jpg';   
+
+var num = Math.random(); 
+var ran = Math.floor((image.length - 1) * num) + 1; 
+
+document.write('<a href="' + link[ran] + '"><img src="' + image[ran] + '" border="0" /></a>'); 
+//--> 
+</script> 
+</div>
+    
 </body>
 <!-- Bis hier hin, der Text der Seite-->
 

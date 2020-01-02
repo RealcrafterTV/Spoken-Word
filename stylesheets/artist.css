@@ -1,11 +1,12 @@
-<html>
-<head>
-<style>
 div.img {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    position: relative;
+    top: -350px;
+    left: 370px;
     float: left;
-    width: 180px;
+    width: 225px;
+    height: auto;
 }
 
 div.img:hover {
@@ -20,38 +21,11 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: center;
+    position: static;
+    
 }
-</style>
-</head>
-<body>
 
-<div class="img">
-  <a target="_blank" href="imags">
-    <img src="fjords.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="forest.jpg">
-    <img src="forest.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="lights.jpg">
-    <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="mountains.jpg">
-    <img src="mountains.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-</body>
-</html>
+.flexbox {
+    display: flex;
+    border: 0px solid #333;
+}
