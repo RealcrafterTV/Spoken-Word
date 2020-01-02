@@ -18,10 +18,26 @@ div.img img {
     height: auto;
 }
 
-div.desc {
+div.txt {
     padding: 15px;
     text-align: center;
-    position: static;
+    position: relative;
+    text-align: bottom;
+}
+
+div.mk {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    bottom: -188px;
+    
+}
+
+div.rd {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    bottom: -113px;
     
 }
 

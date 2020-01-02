@@ -9,10 +9,6 @@ div.img {
     width: 225px;
 }
 
-div.img:hover {
-    border: 1px solid #777;
-}
-
 div.img img {
     width: 100%;
     height: auto;
