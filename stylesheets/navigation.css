@@ -32,6 +32,8 @@ iframe
 {
     font-size: 19px;
     margin: auto;
+    height: 420px;
+    width: 280px;
 }
 /* unbesuchte Links */
 a:link {
