@@ -27,9 +27,10 @@ div.txt {
 .flexbox {
     position: absolute;
     display: flex;
-    border: 0px solid #333;
+    border: px solid #333;
     left: 280px;
-    margin-left: 45px;
+    margin-left: 190px;
     margin-right: 45px;
     width: 57%;
+    margin-top: 72px;
 }
