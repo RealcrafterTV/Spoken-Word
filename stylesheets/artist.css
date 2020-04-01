@@ -1,36 +1,52 @@
+.kunstler{
+  display: grid;
+  grid-template-columns: repeat (5, 1fr);
+  
+}
+
 div.img {
     margin: 5px;
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    height: 300px;
+    max-height:120rem;
+    width: 15rem;
 }
 div.img:hover {
     border: 1px solid #777;
 }
 
 div.img img {
-    float: left;
-    max-width: 180px;
-    margin: 10px;
-    height: 250px;
+    width: 13rem;
+    margin: 15px;
+    height: 20rem;
 }
 
 div.txt {
     padding: 15px;
-    position: relative;
-    height: 330px;
-    width: auto;
-    
+    height: 3rem;
+    width: 14rem;
 }
 
 .flexbox {
-    position: absolute;
-    display: flex;
-    border: px solid #333;
-    left: 280px;
-    margin-left: 190px;
-    margin-right: 45px;
-    width: 57%;
-    margin-top: 72px;
+    display: grid;
+    left: 0rem;
+    margin-top: 2rem;
+    max-width: 14rem;
+}
+}
+.MM {
+ grid-column: 1 / 2;
+}
+.MK {
+ grid-column: 2 / 3;
+}
+.DA {
+ grid-column: 3 / 4;
+}
+.SM {
+ grid-column: 4 / 5;
+}
+.RD {
+ grid-column: 5 / 6;
 }
