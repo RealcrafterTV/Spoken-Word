@@ -30,9 +30,9 @@ div.txt {
 
 .flexbox {
     display: grid;
-    left: 0rem;
+    left: 10rem;
     margin-top: 2rem;
-    max-width: 14rem;
+    max-width: 66rem;
 }
 }
 .MM {
