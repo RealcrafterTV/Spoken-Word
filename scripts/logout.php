@@ -1,6 +1,12 @@
 <?php
+/*
+Author: Javed Ur Rehman
+Website: http://www.allphptricks.com/
+*/
+
 session_start();
-session_destroy();
- 
-echo "Logout erfolgreich";
+if(session_destroy()) // Destroying All Sessions
+{
+header("Location: login.php"); // Redirecting To Home Page
+}
 ?>
