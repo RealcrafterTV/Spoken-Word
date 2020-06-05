@@ -12,7 +12,14 @@
    <a href="navigation.html" target="_parent">Navigationsleiste </a>
    </iframe>
           </div>
+     <div class="texte">    
+<!--
+   <iframe src="randomtext.php">
+   <a href="randomtext.php" target="_parent">Zufälliger Text </a>
+   </iframe>
+        </div>
+!-->    
 <?php
 
 ?>
-    <img src="images/worker-warning-site-under-construction-vector-11161964.jpg" alt="Page under Construction">
+    <img src="images/andreas-warning-site-under-construction.jpg" alt="Page under Construction">

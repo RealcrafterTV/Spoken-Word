@@ -12,6 +12,7 @@
    <a href="navigation.html" target="_parent">Navigationsleiste </a>
    </iframe>
           </div>
+    
 <?php
 	require('db.php');
 	session_start();
