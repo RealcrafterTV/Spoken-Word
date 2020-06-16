@@ -13,12 +13,7 @@
    </iframe>
           </div>
      <div class="texte">    
-<!--
-   <iframe src="randomtext.php">
-   <a href="randomtext.php" target="_parent">Zufälliger Text </a>
-   </iframe>
-        </div>
-!-->    
+  
 <?php
 
 ?>
